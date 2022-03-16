@@ -1,18 +1,24 @@
-#include "main.h"
-#include "stdio.h"
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+/**
+ * function positive_or_negative to test if nuumber passed is + or -
+ */
 
-void positive_or_negative(int r)
+/* betty style doc for function main goes there */
+void positive_or_negative(int n)
 {
-    if (r > 0)
-    {
-        printf("%d is positive\n", r);
-    }
-    else if (r < 0)
-    {
-        printf("%d is negative", r);
-    }
-    else if (r == 0)
-    {
-        printf("%d is zero", r);
-    }
+
+	if (n < 0)
+	{
+		printf("%d is negative\n", n);
+	}
+	else if (n == 0)
+	{
+		printf("%d is zero\n", n);
+	}
+	else
+	{
+		printf("%d is positive\n", n);
+	}
 }
