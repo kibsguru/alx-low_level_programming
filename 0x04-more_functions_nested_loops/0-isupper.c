@@ -6,7 +6,6 @@
  * Return: if c is uppercase, return 1
  * 	 	c return 0 of otherwise
  */
-
 int _isupper(int c)
 {
 	/*int b = 0;
@@ -19,6 +18,5 @@ int _isupper(int c)
 		b = 1;
 	}
 	return (b);*/
-
 	return (c >= 'A' && c <= 'Z');
 }
