@@ -4,10 +4,8 @@
 /**
  * function prints numbers from 0 - 9 
  * followed by newline
- *
  * Returns void
  */
-
 void print_numbers(void)
 {
 	int i = 0;
@@ -18,4 +16,5 @@ void print_numbers(void)
 	}
 
 	_putchar('\n');
+
 }
