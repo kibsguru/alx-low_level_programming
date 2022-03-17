@@ -5,7 +5,6 @@
  * functions checks for a digit (0 through 9)
  * returns 1 if @c is a digit, return 0 if otherwise
  */
-
 int _isdigit(int c)
 {
 	int b = 0;
