@@ -11,11 +11,11 @@ int main(void)
 {
 	char c;
 
-	c = 'A';
+	c = 'F';
 	printf("%c: %d\n", c, _isupper(c));
-	c = 'a';
+	c = 'b';
 	printf("%c: %d\n", c, _isupper(c));
 
 	return (0);
-	
+
 }
